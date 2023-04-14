@@ -1,0 +1,13 @@
+names:
+- cat
+- dog
+nc: 2
+roboflow:
+  license: Private
+  project: dog-or-cat-detection_yolo
+  url: https://app.roboflow.com/project/dog-or-cat-detection_yolo/1
+  version: 1
+  workspace: project
+test: ../test/images
+train: /content/datasets/dog-or-cat-detection_yolo-1/train/images
+val: /content/datasets/dog-or-cat-detection_yolo-1/valid/images
