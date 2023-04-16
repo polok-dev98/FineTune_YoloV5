@@ -1,6 +1,6 @@
 # FineTune the yolov5 model for custom training dataset.
 
-All the training logs such as performance metrics, training batch example, training weight and also detected test image are store on (yolov5/runs/ directory)
+All the training logs such as performance metrics, training batch example, training weight and also detected test image are store on (yolov5/runs/ directory).
 
  1. Data sets are annoted and preprocessed by roboflow website. Dataset are stored in (datasets) forlder.
 
