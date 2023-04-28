@@ -1,4 +1,4 @@
-# FineTune the Yolov5 Model for custom training dataset.
+# Fine Tune the Yolov5 Model for custom training dataset.
 
 All the training logs such as performance metrics, training batch example, training weight and also detected test image are store on (yolov5/runs/ directory)
 
