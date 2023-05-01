@@ -8,4 +8,4 @@ All the training logs such as performance metrics, training batch examples, trai
 
  3. All the project description and discussion are discussed in (project_discription.doc) file.
  
- 4. How to train the Yolov5 model for custom dataset code are in the (cat_dog.py) file.
+ 4. How to train the Yolov5 model for custom dataset code are in the (cat_dog.py) file..
