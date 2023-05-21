@@ -2,7 +2,7 @@
 
 All the training logs such as performance metrics, training batch examples, training weights and also detected test images are store on (yolov5/runs/ directory) folder.
 
- Yolov5 custom model training project description:
+ # Yolov5 custom model training project description:
 
 YOLOv5 is a popular object detection algorithm that uses a deep neural network to detect objects in images. Custom YOLOv5 training involves fine-tuning the existing pre-trained YOLOv5 model to detect objects specific to a particular use case. In our case, we use the yolov5 small version model for training our custom dataset which includes cat and dog images and our main target is to detect the cat and dog image with the bounding box. This involves three main steps:
 
@@ -12,7 +12,7 @@ YOLOv5 is a popular object detection algorithm that uses a deep neural network t
 
 3.	Evaluation: Testing the trained model on a separate set of annotated images to evaluate its performance and adjust the hyperparameters if necessary.
 
-Data preparation(Roboflow):
+# Data preparation(Roboflow):
 
 For data preparation, we use the (Roboflow.com) website for the annotation of the dataset and for splitting and transforming the dataset. 
 
@@ -28,7 +28,7 @@ For preparing the dataset with Roboflow these steps are followed:
 8.	Use the downloaded data to train the YOLOv5 model using our preferred framework or platform.
 
 
-Model training:
+# Model training:
 
 1. Install YOLOv5: First, we need to install YOLOv5 on our machine. we can use pip to install it by running the following command:
 !pip install yolov5
@@ -49,7 +49,7 @@ val: /path/to/val/directory
 
 Here, we are training a YOLOv5s model with an image size of 640, and batch size of 16, for 50 epochs using the my_yolo.yaml configuration file, and starting with the pre-trained yolov5s.pt weights.
 
-Evaluation:
+# Evaluation:
 
 1. Monitor the training: During the training, we can monitor the progress of the training and see the loss and other metrics using Tensorboard. We use the following command to start Tensorboard:
 !tensorboard --logdir runs/train
@@ -62,19 +62,3 @@ Here, we are evaluating the best weights obtained during training on the validat
 
 
 That's it! These are the basic steps to train a YOLOv5 model using a dataset prepared with Roboflow. We can further fine-tune the model by changing the hyperparameters and other training settings.
-
-
-
-
-
-
-
-
-
-Observations about the yolov5 custom training project:
-
-   
-
-
-From the above images, we saw Yolov5 model accurately detects the test image classes such as cat and dog which is good in sound. Moreover, our images are insufficient, if we provide more images for training purposes, our model can perform very well as we expected.
-
